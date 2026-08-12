@@ -1,0 +1,43 @@
+{
+  "name": "akeda-erp",
+  "version": "1.0.0",
+  "description": "Работайте с Akeda ERP из Codex: задачи, справочники, склад, финансы, календарь, маркетплейсы и производственные процессы.",
+  "author": {
+    "name": "Akeda",
+    "url": "https://erp.akeda.ru"
+  },
+  "homepage": "https://erp.akeda.ru",
+  "repository": "https://github.com/Artogceo/akeda-codex-marketplace",
+  "keywords": [
+    "akeda",
+    "erp",
+    "crm",
+    "tasks",
+    "finance",
+    "marketplace"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Akeda ERP",
+    "shortDescription": "Ваше рабочее пространство Akeda в Codex",
+    "longDescription": "Задачи, справочники, склад, финансы, календарь, маркетплейсы и производственные процессы — с правами вашего пользователя Akeda.",
+    "developerName": "Akeda",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Search",
+      "Reports"
+    ],
+    "websiteURL": "https://erp.akeda.ru",
+    "defaultPrompt": [
+      "Покажи, какие возможности Akeda ERP доступны мне в этом кабинете.",
+      "Помоги разобраться с моими задачами Akeda и следующим шагом по ним.",
+      "Найди нужные данные в Akeda ERP и подготовь краткий рабочий отчёт."
+    ],
+    "brandColor": "#D9541E",
+    "composerIcon": "./assets/akeda-icon.png",
+    "logo": "./assets/akeda-logo.svg"
+  }
+}

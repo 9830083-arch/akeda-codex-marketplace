@@ -1,0 +1,20 @@
+{
+  "name": "akeda-codex-marketplace",
+  "interface": {
+    "displayName": "Akeda Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "akeda-erp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/akeda-erp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

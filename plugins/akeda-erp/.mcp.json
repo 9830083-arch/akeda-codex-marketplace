@@ -1,0 +1,7 @@
+{
+  "akeda-erp": {
+    "url": "https://erp.akeda.ru/mcp",
+    "auth": "oauth",
+    "default_tools_approval_mode": "writes"
+  }
+}
